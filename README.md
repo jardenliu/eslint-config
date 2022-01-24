@@ -4,7 +4,7 @@ Personal preferences for eslint configuration.
 ## Installation
 
 ```bash
-    $ npm install @jarden/eslint-config
+    $ npm install @jardenliu/eslint-config
 ```
 
 ## Usage
