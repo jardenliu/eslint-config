@@ -6,6 +6,7 @@ module.exports = {
             ts: "@typescript-eslint/parser",
             "<template>": "espree",
         },
+        sourceType: "module"
     },
     plugins: ["@typescript-eslint"],
     extends: [

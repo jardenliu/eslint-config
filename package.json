@@ -2,6 +2,10 @@
   "name": "@jarden/eslint-config",
   "version": "0.0.1",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
   "repository": "git@github.com:jardenliu/eslint-config.git",
   "author": "jardenliu <15915839707@163.com>",
   "license": "MIT",
