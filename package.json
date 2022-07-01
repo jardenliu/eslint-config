@@ -1,19 +1,18 @@
 {
-  "name": "@jardenliu/eslint-config",
-  "version": "0.0.1",
-  "main": "index.js",
-  "files": [
-    "index.js",
-    "LICENSE"
-  ],
-  "repository": "git@github.com:jardenliu/eslint-config.git",
-  "author": "jardenliu <15915839707@163.com>",
-  "license": "MIT",
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.10.0",
-    "@typescript-eslint/parser": "^5.10.0",
-    "eslint": "^8.7.0",
-    "eslint-plugin-vue": "^8.3.0",
-    "typescript": "^4.5.5"
-  }
+    "name": "@jardenliu/eslint-config",
+    "version": "1.0.0",
+    "main": "index.js",
+    "files": [
+        "index.js",
+        "LICENSE"
+    ],
+    "repository": "git@github.com:jardenliu/eslint-config.git",
+    "author": "jardenliu <15915839707@163.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.30.0",
+        "@typescript-eslint/parser": "^5.30.0",
+        "eslint": "^8.18.0",
+        "typescript": "^4.7.4"
+    }
 }

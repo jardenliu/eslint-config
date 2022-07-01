@@ -7,14 +7,13 @@
   "eslint.lintTask.enable": true,
   "eslint.enable": true,
   "[javascript]": {
-    "editor.defaultFormatter":  "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "eslint.validate": [
     "javascript",
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "html",
-    "vue"
+    "html"
   ]
 }
