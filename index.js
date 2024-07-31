@@ -7,9 +7,24 @@ module.exports = {
         },
     },
     parser: '@typescript-eslint/parser',
-    plugins: ['@typescript-eslint'],
+    plugins: ['@typescript-eslint', 'import'],
     extends: ['eslint:recommended', 'plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended'],
     rules: {
+        '@typescript-eslint/type-annotation-spacing': [
+            'error',
+            {
+                before: false,
+                after: true,
+                overrides: {
+                    arrow: {
+                        before: true,
+                        after: true,
+                    },
+                },
+            }
+        ],
+        'func-call-spacing': ['warn', 'never'],
+        'space-in-parens': ['warn', 'never'],
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/no-var-requires': 'off',
