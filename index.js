@@ -10,6 +10,17 @@ module.exports = {
     plugins: ['@typescript-eslint', 'import'],
     extends: ['eslint:recommended', 'plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended'],
     rules: {
+        'import/order': [
+            'warn',
+            {
+                'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+                'newlines-between': 'always',
+                'alphabetize': {
+                    order: 'asc',
+                    caseInsensitive: true,
+                },
+            }
+        ],
         '@typescript-eslint/type-annotation-spacing': [
             'error',
             {
