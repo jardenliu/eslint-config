@@ -144,7 +144,12 @@ module.exports = {
         'space-unary-ops': 'error',
         'space-infix-ops': 'error',
         'no-var': 'error',
-        'no-unused-vars': 'warn',
+        'no-unused-vars': [
+            1,
+            {
+                'argsIgnorePattern': '^_',
+            }
+        ],
 
     },
     env: {
