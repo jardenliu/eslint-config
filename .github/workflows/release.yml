@@ -37,6 +37,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
       - name: patch versions
+      
         run: |
           node ./scripts/patchVersion.js --version ${{ steps.vars.outputs.tag }}
 
