@@ -1,8 +1,5 @@
-import EslintTs, {
-    InfiniteDepthConfigWithExtends,
-    parser,
-} from "typescript-eslint";
-export default [
+import EslintTs, { InfiniteDepthConfigWithExtends } from "typescript-eslint";
+const tsRules: InfiniteDepthConfigWithExtends[] = [
     ...EslintTs.configs.recommended,
     {
         rules: {
@@ -42,4 +39,5 @@ export default [
             ],
         },
     },
-] satisfies InfiniteDepthConfigWithExtends[];
+];
+export default tsRules;
