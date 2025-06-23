@@ -2,16 +2,17 @@
     "name": "@jardenliu/eslint-config",
     "version": "2.0.0",
     "main": "lib/index.cjs",
-    "module": "lib/index.mjs",
+    "module": "lib/index.js",
     "type": "module",
     "types": "lib/index.d.ts",
     "exports": {
         ".": {
-            "import": "./lib/index.mjs",
+            "import": "./lib/index.js",
             "require": "./lib/index.cjs"
         }
     },
     "scripts": {
+        "dev": "rollup -c --watch",
         "build": "rollup -c",
         "prepublishOnly": "pnpm run build"
     },
@@ -32,7 +33,7 @@
         "typescript-eslint": "^8.34.1"
     },
     "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
+        "registry": "https://registry.npjs.org/"
     },
     "devDependencies": {
         "@rollup/plugin-node-resolve": "^16.0.1",
