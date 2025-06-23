@@ -33,7 +33,7 @@
         "typescript-eslint": "^8.34.1"
     },
     "publishConfig": {
-        "registry": "https://registry.npjs.org/"
+        "registry": "https://registry.npmjs.org/"
     },
     "devDependencies": {
         "@rollup/plugin-node-resolve": "^16.0.1",
